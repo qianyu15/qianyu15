@@ -12,6 +12,7 @@ const qianyuYang = {
   name: "Qianyu Yang",
   role: "Frontend Engineer",
   location: "Japan",
+birthday: "08/15",
   
   stack: ["HTML", "CSS", "JavaScript"],
   
