@@ -1,3 +1,12 @@
+# Qianyu Yang
+I like front-end dev!
+## Shell Script
+Run this  in the terminal! `>_`
+```
+curl qianyu15.github.io/hello.sh | sh
+```
+
+## JavaScript
 ```
 const qianyuYang = {
   name: "Qianyu Yang",
