@@ -1,25 +1,31 @@
-name: Generate Pacman
+name: Generate Pacman SVG
 
 on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v3
 
-      - name: Generate Pacman SVG
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate SVG
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: qianyu15
-          outputs: pacman.svg
+          github_user_name: your-github-username
+          outputs: pacman.svg?palette=github-dark
 
-      - name: Push output
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: main
-          build_dir: /
+      - name: Commit generated file to root
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add pacman.svg
+          git commit -m "update pacman svg" || echo "no changes"
+          git push
