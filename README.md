@@ -1,4 +1,4 @@
-![img](packman.svg)
+![img](pacman.svg)
 # Qianyu Yang
 I like front-end dev!
 ## Shell Script
