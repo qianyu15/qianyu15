@@ -7,7 +7,7 @@ Run this  in the terminal! `>_`
 curl -s https://qianyu15.github.io/hello.sh | sh
 ```
 # Grass
-![GitHub Grass](https://grass-svg-api.vercel.app/grass/qianyu15)
+<img src="https://grass-svg-api.vercel.app/grass/qianyu15" width="40">
 
 ## JavaScript
 ```
