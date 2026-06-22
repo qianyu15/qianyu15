@@ -1,42 +1,33 @@
+# Hi, I'm Qianyu Yang
 
-# Qianyu Yang
-I like front-end dev!
-## Shell Script
-Run this  in the terminal! `>_`
-```
-curl -s https://qianyu15.github.io/hello.sh | sh
-```
-# Grass
-![img](https://grass-svg-api.vercel.app/grass/qianyu15)
+Frontend Developer (HTML / CSS / JavaScript)
 
-## JavaScript
-```
-const qianyuYang = {
-  name: "Qianyu Yang",
-  role: "Frontend Engineer",
-  location: "Japan",
-birthday: "08/15",
-  
-  stack: ["HTML", "CSS", "JavaScript"],
-  
-  skills: {
-    frontend: true,
-    backend: false,
-    design: "sometimes",
-  },
+## About
+I build small web projects and experiment with UI, animations, and interactive ideas.
 
-  hobbies: [
-    "UI experiment",
-    "small tools",
-    "breaking layouts accidentally"
-  ],
+Most of my work focuses on:
+- Clean and minimal UI design
+- CSS animations and micro-interactions
+- JavaScript-based interactivity
 
-  currentlyLearning: "TypeScript (still arguing with it)",
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
+- Python (basic scripts)
+- Bash (occasional)
 
-  status: "coding... or pretending to",
+## Projects
+Some of my projects may have been moved or recreated from earlier repositories.
+I focus more on building and iterating than maintaining a single codebase.
 
-  contact: {
-    github: "https://github.com/qianyu15",
-  }
-};
-```
+## Interests
+- UI/UX experimentation
+- Creative frontend design
+- Small interactive web tools
+
+## Notes
+This profile is a continuation of my development work under a previous account.
+
+## Contact
+Available via GitHub issues or linked platforms.
