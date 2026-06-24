@@ -1,3 +1,4 @@
+![pack](pacman.svg)
 # Hi, I'm Qianyu Yang
 
 Frontend Developer (HTML / CSS / JavaScript)
