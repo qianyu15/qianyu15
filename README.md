@@ -7,3 +7,5 @@
 I like front-end develop
 ## Projects
 See here [→](https://github.com/qianyu15)
+## Stats
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=qianyu15)
