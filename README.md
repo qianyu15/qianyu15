@@ -6,4 +6,4 @@
 # Hi, I am Qianyu Yang 👋
 I like front-end develop
 ## Projects
-<p>See here<img src="https://icooon-mono.com/i/icon_12273/icon_122730.svg" width="25"></p>
+See here [→](https://github.com/qianyu15)
