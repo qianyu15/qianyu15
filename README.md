@@ -6,4 +6,4 @@
 # Hi, I am Qianyu Yang 👋
 I like front-end develop
 ## Projects
-<p>See here<img src="https://iconbox.fun/wp/wp-content/uploads/arrow_right_24.svg" width="20"></p>
+<p>See here<img src="https://iconbox.fun/wp/wp-content/uploads/arrow_right_24.svg" width="25"></p>
