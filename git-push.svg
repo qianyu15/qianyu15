@@ -1,0 +1,54 @@
+<svg width="700" height="200" viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0d1117; }
+    .text { fill: #c9d1d9; font: 14px monospace; }
+    .green { fill: #3fb950; font: 14px monospace; }
+
+    .cursor {
+      animation: blink 1s step-end infinite;
+    }
+
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+
+    .typing {
+      width: 0;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: typing 3s steps(12, end) forwards;
+    }
+
+    @keyframes typing {
+      from { width: 0; }
+      to { width: 220px; }
+    }
+
+    .line2, .line3 {
+      opacity: 0;
+      animation: appear 0.1s forwards;
+    }
+
+    .line2 { animation-delay: 3.2s; }
+    .line3 { animation-delay: 4.5s; }
+
+    @keyframes appear {
+      to { opacity: 1; }
+    }
+  </style>
+
+  <rect class="bg" x="0" y="0" width="700" height="200" rx="10"/>
+
+  <!-- prompt -->
+  <text x="20" y="40" class="text">$ git push origin main</text>
+
+  <!-- fake typing animation -->
+  <text x="20" y="70" class="text typing">Enumerating objects...</text>
+
+  <!-- blinking cursor -->
+  <text x="240" y="70" class="text cursor"></text>
+
+  <text x="20" y="100" class="green line2">Counting objects: 100% (12/12)</text>
+  <text x="20" y="130" class="green line3">To github.com:user/repo.git</text>
+
+</svg>
