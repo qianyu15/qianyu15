@@ -1,0 +1,184 @@
+画像を見る限り、これは単純な「色変え」ではなく、**ポートフォリオの方向性そのものを変更した感じ**ですね。コミットメッセージが `update` とか `fix` だけだったら、未来の自分が数年後に見て「何を更新したんだよ」と発掘作業になります。Gitの墓荒らしイベントです。
+
+比較すると:
+
+## 旧版（右側）
+
+特徴:
+
+* 黒背景 + 中央配置
+* 大きい `minirang`
+* 「Hi! I am minirang」の自己紹介
+* 画像1枚
+* 上部に作品リンクボタン
+* 個人ホームページ寄り
+
+雰囲気:
+
+> 「自分のサイトを作りました！」
+
+という感じ。
+
+---
+
+## 新版（左側）
+
+かなり変わっています。
+
+### 1. レイアウト変更
+
+旧:
+
+```
+中央寄せ
+↓
+自己紹介
+↓
+画像
+```
+
+新:
+
+```
+Navbar
+↓
+Hero
+ ├ 大きいキャッチコピー
+ └ Profileカード
+```
+
+になっています。
+
+かなり企業サイト・開発者ポートフォリオ寄り。
+
+---
+
+### 2. 英語ベース化
+
+旧:
+
+```
+Hi! I am minirang
+```
+
+新:
+
+```
+Learning &
+building
+things that
+challenge &
+impact.
+```
+
+になっています。
+
+つまり、
+
+「自分紹介サイト」
+
+から
+
+「自分の開発思想を見せるサイト」
+
+へ変更。
+
+---
+
+### 3. 技術者向け情報追加
+
+新しい方には:
+
+```
+student front-end developer
+
+BASED
+Seoul, KR
+
+FOCUS
+Web · Tooling
+
+STACK
+HTML/CSS · JS/TS · Node
+```
+
+があります。
+
+採用・OSS向けの情報ですね。
+
+---
+
+### 4. ナビゲーション追加
+
+新:
+
+```
+About
+Skills
+Journey
+In Progress
+Projects
+Open Source
+Achievements
+Books
+Now
+GitHub
+Contact
+```
+
+これは完全にポートフォリオサイトの定番構成。
+
+---
+
+### 5. デザイン系
+
+旧:
+
+* シンプル
+* 学生ブログ感
+
+新:
+
+* ダークUI
+* グリッド背景
+* カードUI
+* タイポグラフィ重視
+
+最近の開発者ポートフォリオっぽい方向。
+
+---
+
+ただし、あなたの言う「コミットメッセージぐらい書け」は割と正しいです。
+
+例えば変更コミットなら:
+
+悪い例:
+
+```
+update
+```
+
+良い例:
+
+```
+redesign portfolio homepage
+add developer profile section
+replace old hero layout with modern card UI
+```
+
+みたいにしておけば、後から見た時に何をしたか分かります。
+
+特にこのレベルで作り直しているなら、変更内容が大きいので:
+
+```
+feat: redesign portfolio website
+
+- Added new hero section
+- Added skills and stack information
+- Added project navigation
+- Updated responsive layout
+```
+
+くらい残す価値があります。
+
+ちなみに旧版を `portfolio_old` として残している時点で、完全に消すよりは履歴管理の意識はあります。名前だけ見ると「古代遺跡保存」ですが、実際は個人開発者によくある進化ログですね。
