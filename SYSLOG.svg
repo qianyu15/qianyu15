@@ -1,0 +1,43 @@
+<svg width="900" height="500" viewBox="0 0 900 500" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="500" fill="#050505"/>
+
+  <!-- header -->
+  <rect x="20" y="20" width="860" height="50" rx="8" fill="#111" stroke="#00ff99"/>
+  <circle cx="45" cy="45" r="8" fill="#ff5555"/>
+  <circle cx="70" cy="45" r="8" fill="#ffaa00"/>
+  <circle cx="95" cy="45" r="8" fill="#00ff99"/>
+
+  <text x="130" y="52"
+        fill="#00ff99"
+        font-family="monospace"
+        font-size="22">
+    Qianyu System Console
+  </text>
+
+  <!-- log area -->
+  <rect x="20" y="90" width="860" height="380" rx="8"
+        fill="#080808"
+        stroke="#222"/>
+
+  <g font-family="monospace" font-size="18" fill="#00ff99">
+    <text x="45" y="130">[BOOT] Initializing Qianyu OS...</text>
+    <text x="45" y="165">[ OK ] Kernel loaded successfully</text>
+    <text x="45" y="200">[INFO] User: qianyu15</text>
+    <text x="45" y="235">[INFO] Stack: HTML CSS JS Python Node.js</text>
+    <text x="45" y="270">[INFO] Loading projects...</text>
+    <text x="45" y="305">[ OK ] GitHub connection established</text>
+    <text x="45" y="340">[RUN ] Portfolio service started</text>
+    <text x="45" y="375">[WARN] Human developer detected</text>
+    <text x="45" y="410">[ OK ] System ready_</text>
+  </g>
+
+  <!-- scan line -->
+  <rect x="20" y="90" width="860" height="2" fill="#00ff99" opacity="0.5">
+    <animate attributeName="y"
+             from="90"
+             to="470"
+             dur="3s"
+             repeatCount="indefinite"/>
+  </rect>
+
+</svg>
