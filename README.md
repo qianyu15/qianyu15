@@ -1,4 +1,4 @@
-![Verifyd](./確認.svg)
+![Verifyd](./確認.svg) **`verified`**
 # Hi, I am QIANYU YANG
 開発してます
 ## Tech Stack
