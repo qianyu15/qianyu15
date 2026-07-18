@@ -1,4 +1,6 @@
-<img width="50" src="確認.svg">**`verified`**
+<img width="50" src="確認.svg">
+
+# `verified`
 # Hi, I am QIANYU YANG
 開発してます
 ## Tech Stack
