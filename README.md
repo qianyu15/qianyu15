@@ -1,4 +1,4 @@
-![log](./hd.svg)
+![Verifyd](./確認.svg)
 # Hi, I am QIANYU YANG
 開発してます
 ## Tech Stack
