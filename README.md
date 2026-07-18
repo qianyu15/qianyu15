@@ -1,6 +1,6 @@
 
 
-<h1><img width="30"alt="wave" src="https://em-content.zobj.net/source/joypixels-animations/368/waving-hand_1f44b.gif"> Hi, I am QIANYU YANG</h1>
+<h1><img width="80"alt="wave" src="https://em-content.zobj.net/source/joypixels-animations/368/waving-hand_1f44b.gif"> Hi, I am QIANYU YANG</h1>
 
 開発してます
 ## Tech Stack
