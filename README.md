@@ -15,7 +15,8 @@ I'm a developer who enjoys creating websites, tools, APIs and open-source projec
 ## Projects
 書くの面倒なので[GitHub](https://github.com/qianyu15)を見てください
 ## Contact
-<img width="340" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/kobushi34/20230304/20230304005708.gif?changed=1701097813">
+<img width="931" height="1068" alt="image" src="https://github.com/user-attachments/assets/646ad875-eff0-4827-8812-9efeb37aebd4" />
+
 
 [![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:qianyuyang.vip@gmail.com)
 [![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/qianyu15)
