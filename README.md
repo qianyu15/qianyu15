@@ -1,7 +1,7 @@
-<div><img width="50" src="確認.svg"><p>verified</p>
-</div>
 
-# Hi, I am QIANYU YANG
+
+<h1><img alt="wave" src="https://em-content.zobj.net/source/joypixels-animations/368/waving-hand_1f44b.gif"> Hi, I am QIANYU YANG</h1>
+
 開発してます
 ## Tech Stack
 - HTML
