@@ -1,6 +1,6 @@
 
 
-<h1><img width="80"alt="wave" src="https://em-content.zobj.net/source/joypixels-animations/368/waving-hand_1f44b.gif"> Hi, I am QIANYU YANG</h1>
+<h1><img width="60"alt="wave" src="https://em-content.zobj.net/source/joypixels-animations/368/waving-hand_1f44b.gif"> Hi, I am QIANYU YANG</h1>
 
 I'm a developer who enjoys creating websites, tools, APIs and open-source projects. I love experimenting with new ideas, building polished interfaces, and making things that are both useful and fun.
 **Location**: Japan
