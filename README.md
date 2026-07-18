@@ -1,11 +1,22 @@
-<img width="370" alt="image" src="https://github.com/user-attachments/assets/5be6250e-cfc5-48b2-92c8-547190044208" />
 
-$ **`cat qianyu.js`**  
-```
-const profile = {
-name: "Qianyu Yang",
-role: "Frontend Developer",
-focus: ["UI", "Web", "Automation"],
-available: true
-};
-```
+
+<h1><img width="60"alt="wave" src="https://em-content.zobj.net/source/joypixels-animations/368/waving-hand_1f44b.gif"> Hi, I am QIANYU YANG</h1>
+
+I'm a developer who enjoys creating websites, tools, APIs and open-source projects. I love experimenting with new ideas, building polished interfaces, and making things that are both useful and fun.
+**Location**: Japan
+
+## Tech Stack
+- HTML
+- CSS
+- JavaScript
+- Node.js
+- Tailwind CSS
+- Python
+## Projects
+書くの面倒なので[GitHub](https://github.com/qianyu15)を見てください
+## Contact
+<img width="340" src="https://cdn-ak.f.st-hatena.com/images/fotolife/k/kobushi34/20230304/20230304005708.gif?changed=1701097813">
+
+[![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:qianyuyang.vip@gmail.com)
+[![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/qianyu15)
+**⚠️ 僕は本業(高専)あるので勝手に仕事頼まないでください ⚠️**
