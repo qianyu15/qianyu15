@@ -1,6 +1,7 @@
-<img width="50" src="確認.svg">
+<div><img width="50" src="確認.svg">
+<p>verified</p>
+</div>
 
-# `verified`
 # Hi, I am QIANYU YANG
 開発してます
 ## Tech Stack
