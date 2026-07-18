@@ -1,5 +1,4 @@
-<div><img width="50" src="確認.svg">
-<p>verified</p>
+<div><img width="50" src="確認.svg"><p>verified</p>
 </div>
 
 # Hi, I am QIANYU YANG
