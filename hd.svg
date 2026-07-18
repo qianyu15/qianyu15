@@ -1,16 +1,16 @@
-<svg width="1536" height="512" viewBox="0 0 1536 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1536" height="512" viewBox="0 0 1536 512"
+     fill="none" xmlns="http://www.w3.org/2000/svg">
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1536" y2="512"
+                    gradientUnits="userSpaceOnUse">
       <stop stop-color="#050816"/>
       <stop offset="1" stop-color="#111827"/>
     </linearGradient>
 
-    <linearGradient id="avatar" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#38BDF8"/>
-      <stop offset="1" stop-color="#8B5CF6"/>
-    </linearGradient>
-
-    <filter id="glow">
+    <!-- Glow -->
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
       <feGaussianBlur stdDeviation="8" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
@@ -18,107 +18,249 @@
       </feMerge>
     </filter>
 
-    <style>
-      .tech {
-        font-family: Arial, sans-serif;
-        font-weight: bold;
-        fill: white;
-        text-anchor: middle;
-      }
+    <filter id="smallGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-      .orbit {
-        fill: none;
-        stroke: #334155;
-        stroke-width: 2;
-        stroke-dasharray: 8 12;
-      }
-    </style>
+    <!-- Orbit paths -->
+    <path id="orbit1" d="M768 256
+      C1040 70 1320 150 1320 256
+      C1320 362 1040 442 768 256
+      C496 70 216 150 216 256
+      C216 362 496 442 768 256"/>
+
+    <path id="orbit2" d="M768 256
+      C920 60 1180 110 1250 256
+      C1180 402 920 452 768 256
+      C616 60 356 110 286 256
+      C356 402 616 452 768 256"/>
+
+    <path id="orbit3" d="M768 256
+      C1000 130 1140 190 1140 256
+      C1140 322 1000 382 768 256
+      C536 130 396 190 396 256
+      C396 322 536 382 768 256"/>
   </defs>
 
   <!-- Background -->
-  <rect width="1536" height="512" fill="url(#bg)"/>
+  <rect width="1536" height="512" rx="24" fill="url(#bg)"/>
 
-  <!-- Decorative stars -->
-  <circle cx="120" cy="90" r="2" fill="#38BDF8"/>
-  <circle cx="1400" cy="110" r="3" fill="#8B5CF6"/>
-  <circle cx="1320" cy="400" r="2" fill="#22D3EE"/>
-
-  <!-- Orbit -->
-  <ellipse cx="768" cy="256" rx="260" ry="130" class="orbit"/>
-  <ellipse cx="768" cy="256" rx="340" ry="180" class="orbit"/>
-
-  <!-- Avatar -->
-  <circle cx="768" cy="256" r="95" fill="url(#avatar)" filter="url(#glow)"/>
-  <circle cx="768" cy="256" r="82" fill="#0F172A"/>
-
-  <text x="768" y="275"
-        font-size="70"
-        font-family="Arial"
-        font-weight="bold"
-        fill="white"
-        text-anchor="middle">
-    QY
-  </text>
-
-  <!-- Name -->
-  <text x="768" y="430"
-        font-size="32"
-        font-family="Arial"
-        fill="#CBD5E1"
-        text-anchor="middle">
-    Qianyu Yang
-  </text>
-
-
-  <!-- Tech Nodes -->
-  <g class="tech" font-size="22">
-
-    <g transform="translate(768 75)">
-      <circle r="45" fill="#E34F26"/>
-      <text y="8">HTML</text>
-    </g>
-
-    <g transform="translate(1060 150)">
-      <circle r="45" fill="#1572B6"/>
-      <text y="8">CSS</text>
-    </g>
-
-    <g transform="translate(1100 350)">
-      <circle r="45" fill="#F7DF1E"/>
-      <text y="8" fill="black">JS</text>
-    </g>
-
-    <g transform="translate(768 430)">
-      <circle r="45" fill="#61DAFB"/>
-      <text y="8" fill="black">React</text>
-    </g>
-
-    <g transform="translate(440 350)">
-      <circle r="45" fill="#339933"/>
-      <text y="8">Node</text>
-    </g>
-
-    <g transform="translate(470 150)">
-      <circle r="45" fill="#336791"/>
-      <text y="8">SQL</text>
-    </g>
-
+  <!-- Stars -->
+  <g fill="#FFFFFF" opacity="0.7">
+    <circle cx="100" cy="90" r="1.5"/>
+    <circle cx="180" cy="390" r="1"/>
+    <circle cx="330" cy="80" r="1.2"/>
+    <circle cx="470" cy="430" r="1.4"/>
+    <circle cx="650" cy="65" r="1"/>
+    <circle cx="880" cy="90" r="1.3"/>
+    <circle cx="1050" cy="430" r="1"/>
+    <circle cx="1240" cy="80" r="1.4"/>
+    <circle cx="1430" cy="380" r="1.2"/>
+    <circle cx="1380" cy="180" r="1"/>
   </g>
 
-  <!-- Header title -->
-  <text x="80" y="120"
-        font-size="48"
-        font-family="Arial"
-        font-weight="bold"
-        fill="white">
-    Developer Portfolio
+  <!-- Orbit rings -->
+  <g fill="none" stroke="#334155" stroke-width="1.5" opacity="0.7">
+    <ellipse cx="768" cy="256" rx="550" ry="185"/>
+    <ellipse cx="768" cy="256" rx="465" ry="155"/>
+    <ellipse cx="768" cy="256" rx="370" ry="105"/>
+  </g>
+
+  <!-- Center glow -->
+  <circle cx="768" cy="256" r="120"
+          fill="#2563EB" opacity="0.12"
+          filter="url(#glow)"/>
+
+  <!-- Center -->
+  <g filter="url(#glow)">
+    <circle cx="768" cy="256" r="78"
+            fill="#0F172A"
+            stroke="#60A5FA"
+            stroke-width="3"/>
+
+    <circle cx="768" cy="256" r="64"
+            fill="#111827"
+            stroke="#1D4ED8"
+            stroke-width="1"
+            opacity="0.9"/>
+  </g>
+
+  <!-- qianyu -->
+  <text x="768" y="266"
+        text-anchor="middle"
+        fill="white"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="34"
+        font-weight="700"
+        letter-spacing="2">
+    qianyu
   </text>
 
-  <text x="80" y="165"
-        font-size="22"
-        font-family="Arial"
-        fill="#94A3B8">
-    Web • API • Full Stack Development
+  <!-- subtitle -->
+  <text x="768" y="294"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="12"
+        letter-spacing="3">
+    CODE · CREATE · EXPLORE
+  </text>
+
+  <!-- ========================= -->
+  <!-- HTML -->
+  <!-- ========================= -->
+  <g filter="url(#smallGlow)">
+    <g>
+      <animateMotion dur="13s"
+                     repeatCount="indefinite"
+                     rotate="auto">
+        <mpath href="#orbit1"/>
+      </animateMotion>
+
+      <circle r="32" fill="#111827" stroke="#F97316" stroke-width="2"/>
+      <text x="0" y="9"
+            text-anchor="middle"
+            fill="#F97316"
+            font-family="Arial"
+            font-size="25"
+            font-weight="bold">
+        &lt;/&gt;
+      </text>
+    </g>
+  </g>
+
+  <!-- ========================= -->
+  <!-- CSS -->
+  <!-- ========================= -->
+  <g filter="url(#smallGlow)">
+    <g>
+      <animateMotion dur="17s"
+                     repeatCount="indefinite"
+                     begin="-4s"
+                     rotate="auto">
+        <mpath href="#orbit2"/>
+      </animateMotion>
+
+      <circle r="32" fill="#111827" stroke="#38BDF8" stroke-width="2"/>
+      <text x="0" y="9"
+            text-anchor="middle"
+            fill="#38BDF8"
+            font-family="Arial"
+            font-size="22"
+            font-weight="bold">
+        #
+      </text>
+    </g>
+  </g>
+
+  <!-- ========================= -->
+  <!-- JavaScript -->
+  <!-- ========================= -->
+  <g filter="url(#smallGlow)">
+    <g>
+      <animateMotion dur="21s"
+                     repeatCount="indefinite"
+                     begin="-8s"
+                     rotate="auto">
+        <mpath href="#orbit3"/>
+      </animateMotion>
+
+      <circle r="32" fill="#111827" stroke="#FACC15" stroke-width="2"/>
+      <text x="0" y="8"
+            text-anchor="middle"
+            fill="#FACC15"
+            font-family="Arial"
+            font-size="16"
+            font-weight="bold">
+        JS
+      </text>
+    </g>
+  </g>
+
+  <!-- ========================= -->
+  <!-- Node.js -->
+  <!-- ========================= -->
+  <g filter="url(#smallGlow)">
+    <g>
+      <animateMotion dur="15s"
+                     repeatCount="indefinite"
+                     begin="-5s"
+                     rotate="auto">
+        <mpath href="#orbit1"/>
+      </animateMotion>
+
+      <circle r="32" fill="#111827" stroke="#22C55E" stroke-width="2"/>
+      <text x="0" y="7"
+            text-anchor="middle"
+            fill="#22C55E"
+            font-family="Arial"
+            font-size="14"
+            font-weight="bold">
+        Node
+      </text>
+    </g>
+  </g>
+
+  <!-- ========================= -->
+  <!-- Tailwind CSS -->
+  <!-- ========================= -->
+  <g filter="url(#smallGlow)">
+    <g>
+      <animateMotion dur="19s"
+                     repeatCount="indefinite"
+                     begin="-10s"
+                     rotate="auto">
+        <mpath href="#orbit2"/>
+      </animateMotion>
+
+      <circle r="32" fill="#111827" stroke="#06B6D4" stroke-width="2"/>
+      <text x="0" y="6"
+            text-anchor="middle"
+            fill="#06B6D4"
+            font-family="Arial"
+            font-size="11"
+            font-weight="bold">
+        TW
+      </text>
+    </g>
+  </g>
+
+  <!-- ========================= -->
+  <!-- Python -->
+  <!-- ========================= -->
+  <g filter="url(#smallGlow)">
+    <g>
+      <animateMotion dur="23s"
+                     repeatCount="indefinite"
+                     begin="-15s"
+                     rotate="auto">
+        <mpath href="#orbit3"/>
+      </animateMotion>
+
+      <circle r="32" fill="#111827" stroke="#A78BFA" stroke-width="2"/>
+      <text x="0" y="7"
+            text-anchor="middle"
+            fill="#A78BFA"
+            font-family="Arial"
+            font-size="15"
+            font-weight="bold">
+        Py
+      </text>
+    </g>
+  </g>
+
+  <!-- Bottom text -->
+  <text x="768" y="470"
+        text-anchor="middle"
+        fill="#64748B"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="13"
+        letter-spacing="4">
+    SOFTWARE ENGINEER · OPEN SOURCE · BUILDER
   </text>
 
 </svg>
