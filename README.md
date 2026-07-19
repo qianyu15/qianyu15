@@ -1,7 +1,13 @@
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=0:ff7eb3,100:ff758c&height=220&section=header&text=Qianyu%20Yang&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Full-stack%20developer&descSize=22&descAlignY=65)
 
-I'm a developer who enjoys creating websites, tools, APIs and open-source projects. I love experimenting with new ideas, building polished interfaces, and making things that are both useful and fun.  
+ Webサイト、ツール、API、オープンソースプロジェクトなどを開発しています。
+
+新しい技術を試したり、思いついたアイデアを実際に動くものにしたり、
+使いやすく見た目にもこだわったインターフェースを作ることが好きです。
+
+現在は、Web開発を中心にさまざまなプロジェクトを開発しています。
+
 **拠点**: 日本
 
 ## 技術スキル
