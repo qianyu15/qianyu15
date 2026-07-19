@@ -25,4 +25,4 @@
 
 
 [![Gmail](https://skillicons.dev/icons?i=gmail)](mailto:qianyuyang.vip@gmail.com) [![GitHub](https://skillicons.dev/icons?i=github)](https://github.com/qianyu15)  
-**⚠️ 僕は本業(高専)あるので勝手に仕事頼まないでください ⚠️**
+
