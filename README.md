@@ -1,9 +1,10 @@
-# Hi I am Qianyu Yang
 
-12 Y/O 中学生開発者。
-誕生日: 2013/08/15
-所属: 横浜市立西中学校
-コードを書いてるのはうちではなくだいたいAIです
+# Hi I am Qianyu Yang
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&size=24&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Hello%2C+I%27m+Qianyu+Yang;Middle%20School%20Student%20Developer)](https://git.io/typing-svg)
+12 Y/O 中学生開発者。  
+誕生日: 2013/08/15. 
+所属: 横浜市立西中学校. 
+コードを書いてるのはうちではなくだいたいAIです. 
 ## 技術スキル
 
 ![skill](https://skillicons.dev/icons?i=html,css,js,nodejs,python)
