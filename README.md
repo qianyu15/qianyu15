@@ -1,4 +1,4 @@
-<img width="100" alt="image" src="https://github.com/user-attachments/assets/20566187-3aa7-4d81-a67c-823339f877c6" />
+
 
 ![Wave](https://capsule-render.vercel.app/api?type=waving&color=0:ff7eb3,100:ff758c&height=220&section=header&text=Qianyu%20Yang&fontSize=50&fontColor=ffffff&fontAlignY=35&desc=Full-stack%20developer&descSize=22&descAlignY=65)
 
@@ -21,7 +21,9 @@
 
 
 ## プロジェクト
-書くの面倒なので[GitHub](https://github.com/qianyu15)を見てください
+書くの面倒なので[GitHub](https://github.com/qianyu15)を見てください。
+## 草を食べる蛇
+![Snake](https://snake-api-flame.vercel.app/api/snake?user=qianyu15)
 ## お問い合わせ
 
 
