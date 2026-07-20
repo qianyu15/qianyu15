@@ -23,7 +23,7 @@
 ## プロジェクト
 書くの面倒なので[GitHub](https://github.com/qianyu15)を見てください。
 ## 草を食べる蛇
-![Snake](https://snake-api-flame.vercel.app/api/snake?user=qianyu15)
+<img src="https://snake-api-flame.vercel.app/api/snake?user=qianyu15">
 ## お問い合わせ
 
 
