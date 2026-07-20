@@ -10,11 +10,11 @@
 ## プロジェクト
 GitHub見なさい
 ## お問い合わせ
-GitHub
+<p>GitHub</p>
 <a href="https://github.com/qianyu15">
 <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" width="50">
 </a>
-Email
+<p>Email</p>
 <a href="mailto:qianyuyang.vip@gmail.com">
 <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Gmail_icon_%282026%29.svg" width="50">
 </a>
