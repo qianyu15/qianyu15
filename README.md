@@ -4,7 +4,7 @@ Webを中心に、いろいろなものを作っています。
 
 HTML、CSS、JavaScriptを使ったフロントエンド開発から、Node.jsやPythonを使ったバックエンド・ツール開発まで、興味を持ったものを実際に作りながら学んでいます。
 ```
-curl -s https://qianyu15.github.io/hello.sh | sh
+curl -s https://qianyu15.github.io/cmds/hello.sh | sh
 ```
 ↑これターミナルで自己紹介出すコマンドです。面白いのでぜひ実行してみてください!
 ## 🛠️ 技術スタック
